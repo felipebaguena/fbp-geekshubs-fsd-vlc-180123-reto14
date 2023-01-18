@@ -1,0 +1,43 @@
+
+body{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.background-img {
+    background-image: url(/img/8912846674627d548c681d23f15d669e.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-center {
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table {
+    width: 600px;
+    height: 60px;
+    background-color: rgb(255, 199, 126);
+    text-align: center;
+    border: outset 4px chocolate;
+}
+
+th {
+    border: inset 2px;
+    background-color: antiquewhite;
+}
+
+td {
+    border: inset 2px;
+}
